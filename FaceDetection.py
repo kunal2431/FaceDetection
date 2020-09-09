@@ -5,7 +5,7 @@ img = plt.imread("Image.png") #You can also use JPEG file
 plt.imshow(img)
 img.shape
 
-import cv2 # Download command for OpenCV package : pip install -c opencv-python
+import cv2 # Installation command for OpenCV package : pip install -c opencv-python
 model = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') #Xml file download link is given in Readme
 faces = model.detectMultiScale(img)
 for face in faces:
