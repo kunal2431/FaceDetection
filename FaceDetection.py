@@ -12,4 +12,4 @@ for face in faces:
     x,y,w,h = face
     im = cv2.rectangle(img, (x,y), (x+w, y+h), (0,0,0), 2)
     
-plt.imshow(im)
+plt.imshow(img)
